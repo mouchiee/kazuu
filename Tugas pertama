@@ -1,0 +1,18 @@
+# print (aini)
+# fahrenheit ke celcius : 5/9*(f-32)
+# fahrenheit = 5
+fahrenheit = int(input("masukkan derajat fahrenheit"))
+hasil = int((5/9 * fahrenheit - 32))
+print("hasilnya ni ngab :" , hasil , "fahrenheit")
+
+# celsius ke fahrenheit : 9/5*(c+32)
+# celsius = 42
+celcius = int(input("masukkan derajat celcius"))
+hasil = int((9/5 * celcius + 32))
+print("hasilnya ni ngab :" , hasil , "celcius")
+
+# kelvin ke celsius : k-273
+# kelvin = 86
+kelvin = int(input("masukkan derajat kelvin"))
+hasil = int((kelvin - 273))
+print("hasilnya ni ngab :" , hasil , "kelvin") 
